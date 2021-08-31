@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomski centar Rijeka</title>
+    <link rel="shortcut icon" href="../slike&video/test_mountains_logo.ico" type="image/x-icon" /> 
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+    
+<body>
+<header>
+  <nav class="navbar navbar-expand-sm navbar-dark nav-bar fixed-top">
+    <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+        <a class="navbar-brand d-none d-lg-inline-block" href="../index.html">
+          Riječka zvjezdarnica
+        </a>
+        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="../index.html">
+            <img src="../slike&video/test_mountains_logo.png" alt="logo" height="45">
+        </a>
+        <div class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Naslovnica</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="našeUsluge.html">Naše usluge</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="oNama.html">O nama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="program.html">Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lokacija.html">Lokacija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+    </div>
+</nav>
+</header>
+<section id="lokacija">
+  <div id="section5">
+  <h1>Naša lokacija</h1>
+  <div id="map">
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsePnh6DSSdPc3gxYoaLNrVczx5L4SEOw&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+    <script src="index.js"></script>
+  </div>
+</div>
+</section>
+</main>    
+<footer>
+    <div>
+    <p><img src="../slike&video/github-icon-png-8-transparent.png" alt="github-icon" height="20" id="icon"><a href="https://github.com/beka68" target="_blank" class="colorOfTheLinkFooter">Github</a></p>
+    </div>
+    <div>
+    <p><img src="../slike&video/gitlab-logo-black-and-white.png" alt="gitlab-icon" height="20" id="icon"><a href="https://gitlab.com/RebekaFilipovic" target="_blank" class="colorOfTheLinkFooter">Gitlab</a></p>
+    </div>
+    <p>© Rebeka Filipović - Multimedijski sustavi - 2021</p>
+</footer>
+</body>
+</html>
