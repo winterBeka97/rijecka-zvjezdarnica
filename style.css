@@ -1,0 +1,562 @@
+*{
+    font-family: Verdana, Arial, Tahoma, Serif;
+}
+
+p{
+    font-size:1.3125rem;
+    line-height:2;
+}
+
+td{
+    text-align:center;
+}
+
+h1{
+    color:white;
+}
+
+thead{
+    text-align: center;
+    color:white;
+}
+tbody{
+    text-align: center;
+    color:white;
+}
+
+.lista{
+    font-size:1.3125rem;
+}
+
+.lista ul li{
+    font-size:1.3125rem;
+}
+
+#fontLink{
+    font-size:1.3125rem;
+}
+
+.brand {
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -45px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+.nav-bar{
+    background-color: #5044a7;
+    box-shadow: 0 .5rem 1rem rgba(226, 217, 230, 0.3),inset 0 -1px 0 rgba(226, 217, 230, 0.25);
+}
+
+nav img{
+    align-items: center;
+    overflow:hidden;
+}
+
+#section1 {
+    height: 180vh;
+    margin-top:-100px;
+    margin-bottom: -100px;
+    border-bottom: 1px solid #7f7599;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-top:120px;
+    background-image: url('slike&video/nebula_and_stars_original_darken.png');
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center;
+    
+}
+
+.imgResponsive{
+    width:70%;
+    height:auto;
+    box-shadow: 4px 4px 4px #79787a;
+    border-radius: 10px;
+}
+
+.videoResponsive{
+    width:70%;
+    height:auto;
+    border-radius: 10px;
+}
+
+#section2{
+    height: 140vh;
+    margin:-10px;
+    padding-top:0;
+    margin-bottom: -100px;
+    border-bottom: 1px solid #cfc9dd;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-top:120px; 
+    background-image: url('slike&video/nebula_and_stars_original_darken.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3{
+    height: 180vh;
+    margin-top:0px;
+    margin-bottom: -100px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-top:120px;
+    background-image: url('slike&video/nebula_and_stars_original_darken.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section4{
+    height: 295vh;
+    margin-top:0px;
+    margin-bottom: -100px;
+    border-bottom: 1px solid #cfc9dd;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-top:120px;
+    background:url('slike&video/nebula_and_stars_original_darken.png');
+}
+
+#section4_1 {
+    height: 248vh;
+    margin-top:50px;
+    padding-top:20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(70, 69, 69, 0.75),rgba(122, 122, 122, 0.75)),url('');
+}
+
+#section5{
+    height: 90vh;
+    margin-top:0px;
+    margin-bottom: -90px;
+    border-top: 1px solid #7f7599;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-top:120px;
+    background:url('slike&video/nebula_and_stars_original_darken.png');
+}
+
+#section6{
+    height: 100vh;
+    margin-top:0px;
+    margin-bottom: -90px;
+    border-top: 1px solid #7f7599;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-top:120px;
+    background:url('slike&video/nebula_and_stars_original_darken.png');
+}
+
+#section6_1 {
+    height: 75vh;
+    margin-top:0px;
+    padding-top:20px;
+    margin-bottom:-10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(70, 69, 69, 0.75),rgba(122, 122, 122, 0.75)),url('');
+}
+
+.lista ul {
+    /*display:inline-block;*/
+    text-align:center;
+}
+
+.lista ul li{
+    list-style-image: url('icons8-star-15.png')
+}
+
+footer {
+    display:block;
+    margin-top:80px;
+    background-color:#3a29b8;
+    color:white;
+    height: 37vh;
+    width: 100%;
+    text-align: center;
+    border-top: 4px double rgb(27, 10, 44);
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    text-justify: center;
+    text-align: center;
+    padding-top: 20px; 
+}
+
+div a:visited {
+    color: #562e85
+}
+
+footer a:visited{
+    color:#aaa9b4;
+}
+
+.colorOfTheLink{
+ text-decoration: none;
+ color: #231975
+}
+
+#colorOfTheLink_2{
+    
+    color: #9995bb
+}
+
+.colorOfTheLinkFooter{
+    text-decoration: none;
+    color: #ececec
+}
+
+#colorOfTheLink_2 a:hover{
+    color: #211c52;
+    text-decoration:none;
+}
+
+
+div a:hover
+{
+    color: rgb(57, 46, 85);
+}
+
+
+footer a:hover{
+    color:rgb(222, 214, 230);
+    text-decoration:none;
+}
+
+
+
+
+div a:active {
+    color: yellow;
+} 
+
+#icon {
+    position: relative;
+    top: -3px;
+    left: -5px;
+}
+
+#map {
+    display:inline-block;
+    margin-top:15px;
+    height: 350px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+.paragraph{
+    display: inline-block;
+    padding-top:10px;
+    width: 90%;
+}
+
+.table{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:10px;
+    text-align: justify;
+    width: 90%;
+}
+
+
+#dropshadowimg{  
+    width:750px;
+    box-shadow: 5px 5px 5px rgb(107, 107, 107); 
+}
+
+#video{
+    height: 350px;
+}
+
+/*.slike{
+    display:block;
+    padding-top:30px;
+}*/
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media (max-width:916px ){
+    #section3{
+        height: 200vh;
+        margin-top:0px;
+        margin-bottom: -100px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background-image: url('slike&video/nebula_and_stars_original_darken.png');
+    }
+
+}
+
+@media (max-width:1000px){
+    #section4{
+        height: 310vh;
+        margin-top:0px;
+        margin-bottom: -100px;
+        border-bottom: 1px solid #cfc9dd;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background:url('slike&video/nebula_and_stars_original_darken.png');
+    }
+    
+    #section4_1 {
+        height: 270vh;
+        margin-top:50px;
+        padding-top:20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(70, 69, 69, 0.75),rgba(122, 122, 122, 0.75)),url('');
+    }
+}
+
+@media (max-width:950px){
+    #section4{
+        height: 325vh;
+        margin-top:0px;
+        margin-bottom: -100px;
+        border-bottom: 1px solid #cfc9dd;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background:url('slike&video/nebula_and_stars_original_darken.png');
+    }
+    
+    #section4_1 {
+        height: 290vh;
+        margin-top:50px;
+        padding-top:20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(70, 69, 69, 0.75),rgba(122, 122, 122, 0.75)),url('');
+    }
+
+}
+
+@media (max-width:890){
+    #section4{
+        height: 325vh;
+        margin-top:0px;
+        margin-bottom: -100px;
+        border-bottom: 1px solid #cfc9dd;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background:url('slike&video/nebula_and_stars_original_darken.png');
+    }
+    
+    #section4_1 {
+        height: 290vh;
+        margin-top:50px;
+        padding-top:20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(70, 69, 69, 0.75),rgba(122, 122, 122, 0.75)),url('');
+    } 
+}
+
+@media (max-width:820px){
+    #section4{
+        height: 365vh;
+        margin-top:0px;
+        margin-bottom: -100px;
+        border-bottom: 1px solid #cfc9dd;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background:url('slike&video/nebula_and_stars_original_darken.png');
+    }
+    
+    #section4_1 {
+        height: 320vh;
+        margin-top:50px;
+        padding-top:20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(70, 69, 69, 0.75),rgba(122, 122, 122, 0.75)),url('');
+    } 
+}
+
+@media (max-width:770px){
+
+    #section4{
+        height: 390vh;
+        margin-top:0px;
+        margin-bottom: -100px;
+        border-bottom: 1px solid #cfc9dd;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background:url('slike&video/nebula_and_stars_original_darken.png');
+    }
+    
+    #section4_1 {
+        height: 332vh;
+        margin-top:50px;
+        padding-top:20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(70, 69, 69, 0.75),rgba(122, 122, 122, 0.75)),url('');
+    }
+
+ #section6{
+    height: 155vh;
+    margin-top:0px;
+    margin-bottom: -90px;
+    border-top: 1px solid #7f7599;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    padding-top:120px;
+    background:url('slike&video/nebula_and_stars_original_darken.png');
+}
+
+#section6_1 {
+    height: 120vh;
+    margin-top:0px;
+    padding-top:20px;
+    margin-bottom:-10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(70, 69, 69, 0.75),rgba(122, 122, 122, 0.75)),url('');
+}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 570px) {
+    #section2{
+        height: 150vh;
+        margin:-10px;
+        padding-top:0;
+        margin-bottom: -100px;
+        border-bottom: 1px solid #cfc9dd;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px; 
+        background-image: url('slike&video/nebula_and_stars_original_darken.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #section3{
+        height: 210vh;
+        margin-top:0px;
+        margin-bottom: -100px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background-image: url('slike&video/nebula_and_stars_original_darken.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media(max-width: 525px){
+    #section2{
+        height: 160vh;
+        margin:-10px;
+        padding-top:0;
+        margin-bottom: -100px;
+        border-bottom: 1px solid #cfc9dd;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px; 
+        background-image: url('slike&video/nebula_and_stars_original_darken.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #section5{
+        height: 100vh;
+        margin-top:0px;
+        margin-bottom: -90px;
+        border-top: 1px solid #7f7599;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background:url('slike&video/nebula_and_stars_original_darken.png');
+    }
+
+    #section3{
+        height: 235vh;
+        margin-top:0px;
+        margin-bottom: -100px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color:rgb(255, 255, 255);
+        padding-top:120px;
+        background-image: url('slike&video/nebula_and_stars_original_darken.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    
+}

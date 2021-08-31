@@ -1,0 +1,19 @@
+{
+  "name": "mms-zavrsni-rebeka-filipovic",
+  "version": "1.0.0",
+  "description": "Stranica o astronomskom centru u Rijeci.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "astronomski centar",
+    "rijeka",
+    "astronomski centar rijeka"
+  ],
+  "author": "Rebeka Filipović",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
+}
