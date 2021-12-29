@@ -282,11 +282,6 @@ div a:active {
     width: 90%;
 }
 
-.md-form mb-0{
-    margin-top: 5px;
-}
-
-
 #dropshadowimg{  
     width:750px;
     box-shadow: 5px 5px 5px rgb(107, 107, 107); 
