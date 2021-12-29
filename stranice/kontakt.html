@@ -99,7 +99,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="md-form mb-0">
-                                <input type="text" id="subject" name="subject" placeholder="subjekt" class="form-control">
+                                <input type="text" id="subject" name="subject" placeholder="subjekt" class="form-control" required>
                                 <label for="subject" class="">Subjekt</label>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                         <div class="col-md-12">
 
                             <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="4" placeholder="pitanje" class="form-control md-textarea"></textarea>
+                                <textarea type="text" id="message" name="message" rows="4" placeholder="pitanje" class="form-control md-textarea" required></textarea>
                                 <label for="message">Vaše pitanje</label>
                             </div>
 
@@ -165,8 +165,9 @@
         To:'rebeka.filipovich@gmail.com',
         From:document.getElementById("email").value,
         Subject:document.getElementById("subject").value,
-        Body: document.getElementById("message").value}.then(
-         message => alert(message)
+        Body: "Name:" + document.getElementById("name").value + "<br Email:" + document.getElementById("email").value +
+            "<br> Message:" + document.getElementById("message").value }.then(
+         message => alert("Message sent successfully!")
         );
     }
     </script> 
