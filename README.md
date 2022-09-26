@@ -1,4 +1,4 @@
 # mms_zavrsni_ispit
-Završni ispit iz MMS-a
+Final exam MMS/završni ispit iz MMS-a
 <br>
-https://beka68.github.io/rijecka_zvjezdarnica/
+https://.github.io/rijecka_zvjezdarnica/
